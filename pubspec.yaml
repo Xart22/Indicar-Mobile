@@ -1,0 +1,32 @@
+name: indicar
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.1.10
+  get_storage: ^2.0.3
+  flutter_map: ^2.1.1
+  latlong2: ^0.8.1
+  geolocator: ^9.0.1
+  http: ^0.13.4
+  fluttertoast: ^8.0.9
+  geocoding: ^2.0.4
+  skeleton_loader: ^2.0.0+4
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  lints: 2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/img/
+  uses-material-design: true
